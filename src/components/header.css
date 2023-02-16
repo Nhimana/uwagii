@@ -1,0 +1,44 @@
+header {
+  background-color: rgb(82, 82, 82);
+  display: flex;
+  position: relative;
+  height: 80vh;
+}
+header .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 1.5rem;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.social-links,
+.social-links a {
+  display: flex;
+  gap: 0.7rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.banner > div {
+  position: absolute;
+  top: 50%;
+  left: calc((100vw - calc(100vw - 2rem)) * 2);
+  z-index: 3;
+  color: #fff;
+}
+.banner #img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 70px;
+  height: calc(80vh - 70px);
+  filter: opacity(0.4);
+  object-fit: cover;
+  /* z-index: -1; */
+}
